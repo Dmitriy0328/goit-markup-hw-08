@@ -1,0 +1,57 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --studio-header-color: #000000;
+    --text-background-color: #FFFFFF;
+    --hero-background-color: #2F303A;
+    --peculiarity-background-color: #F5F5F5;
+    --team-background-color: #F5F4FA;
+    --footer-background-color: #2F303A;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --button-hover-color: #188ce8;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    
+
+    @media screen and (min-width: 480px) {
+        width: 450px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 738px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1170px;
+    }
+}

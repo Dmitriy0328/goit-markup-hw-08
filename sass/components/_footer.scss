@@ -1,0 +1,33 @@
+.footer {
+    background: var(--footer-background-color);
+    padding: 60px 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer__column {
+
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+    }
+
+}
+
+.footer__left {
+    @media screen and (min-width: 768px) {
+        margin-right: 165px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        margin-right: 70px;
+    }
+}
+
+.tablet-flex {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: baseline;
+    }
+}

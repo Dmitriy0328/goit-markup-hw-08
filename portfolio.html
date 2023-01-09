@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet" href="./css/main.min.css">
+    </head>
+
+    <body>
+        <!--Шапка сторінки-->
+        <header class="header">
+            <div class="container main-nav">
+                <div class="logo"> <a href="/index.html" class="logo__link link">
+                        <span lang="en" class="logo__web">Web</span><span class="logo__studio">Studio</span>
+                    </a>
+                </div>
+                <ul class="site-nav list">
+                    <li class="site-nav__item item"><a href="index.html"
+                            class="site-nav__link link site-nav__link--current ">Студія</a>
+                    </li>
+                    <li class="site-nav__item item"><a href="portfolio.html" class="site-nav__link link site-nav__link--current-trait">Портфоліо</a>
+                    </li>
+                    <li class="site-nav__item item"><a href="" class="site-nav__link link">Контакти</a></li>
+                </ul>
+                <ul class="contacts-header list">
+                    <li class="contacts-header__item item"><a href="mailto:info@devstudio.com"
+                            class="link contacts-header__link"><svg class="contacts-header__icon" width="16"
+                                height="12">
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                            </svg>info@devstudio.com</a></li>
+                    <li class="contacts-header__item item"><a href="tel:+380961111111"
+                            class="link contacts-header__link"><svg class="contacts-header__icon" width="10"
+                                height="16">
+                                <use href="./images/icons.svg#icon-smartphone"></use>
+                            </svg>+38 096 111 11 11</a></li>
+                </ul>
+                <button type="button" class="menu-button-open" data-menu-open><svg class="menu__icon-open" width="40"
+                        height="40">
+                        <use href="./images/icons.svg#icon-menu_4040px"></use>
+                    </svg>
+                </button>
+
+
+
+            </div>
+        </header>
+
+        <!--Унікальний контент сторінки-->
+        <main>
+            <section class="section">
+                <div class="container">
+                    <h1 hidden>Приклади робіт</h1>
+                    <ul class="filter list">
+                        <li class="filter__item"><button type="button" class="filter__button">Усі</button></li>
+                        <li class="filter__item"><button type="button" class="filter__button">Веб-сайти</button>
+                        </li>
+                        <li class="filter__item"><button type="button" class="filter__button">Додатки</button>
+                        </li>
+                        <li class="filter__item"><button type="button" class="filter__button">Дизайн</button>
+                        </li>
+                        <li class="filter__item"><button type="button" class="filter__button">Маркетинг</button>
+                        </li>
+                    </ul>
+                    <ul class="list gallery">
+                        <li class="card">
+                            <a href="" class="link card__link">
+                                <div class="card__thumb">
+                                    <picture>
+                                        <source srcset="./images/portfolio11-desk.jpg 1x, 
+                                        ./images/portfolio11-desk-2x.jpg 2x" media="(min-width:1200px)">
+                                        <source srcset="./images/portfolio11-tab.jpg 1x, 
+                                        ./images/portfolio11-tab-2x.jpg 2x" media="(min-width:768px)">
+                                        <source srcset="./images/portfolio11-mob.jpg 1x, 
+                                        ./images/portfolio11-mob-2x.jpg 2x" media="(min-width:1200px)">
+                                        <img srcset="./images/portfolio11-mob.jpg 1x, 
+                                ./images/portfolio11-mob-2x.jpg 2x" src="./images/img21-mob.jpg" alt="Ігор Дем'яненко"
+                                            width="270" height="260">
+                                    </picture>
+                                    <div class="card__overlay-text">
+                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                                            функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні
+                                            відомості про компанію чи приватну особу.</p>
+
+                                    </div>
+                                </div>
+                                <div class="card__text-wrap">
+                                    <h2 class="card__title">Технокряк</h2>
+                                    <p class="card__text">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="card"><a href="" class="link card__link">
+                                <div class="card__thumb"><picture>
+                                    <source srcset="./images/portfolio12-desk.jpg 1x, 
+                                    ./images/portfolio12-desk-2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/portfolio12-tab.jpg 1x, 
+                                    ./images/portfolio12-tab-2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/portfolio12-mob.jpg 1x, 
+                                    ./images/portfolio12-mob-2x.jpg 2x" media="(min-width:1200px)">
+                                    <img srcset="./images/portfolio12-mob.jpg 1x, 
+                            ./images/portfolio12-mob-2x.jpg 2x" src="./images/img21-mob.jpg" alt="Ігор Дем'яненко"
+                                        width="270" height="260">
+                                </picture>
+                                    <div class="card__overlay-text">
+                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                                            функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні
+                                            відомості про компанію чи приватну особу.</p>
+
+                                    </div>
+                                </div>
+                                <div class="card__text-wrap">
+                                    <h2 class="card__title">Постер New Orlean vs Golden Star</h2>
+                                    <p class="card__text">Дизайн</p>
+                                </div>
+                            </a></li>
+                        <li class="card"><a href="" class="link card__link">
+                                <div class="card__thumb"><picture>
+                                    <source srcset="./images/portfolio13-desk.jpg 1x, 
+                                    ./images/portfolio13-desk-2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/portfolio13-tab.jpg 1x, 
+                                    ./images/portfolio13-tab-2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/portfolio13-mob.jpg 1x, 
+                                    ./images/portfolio13-mob-2x.jpg 2x" media="(min-width:1200px)">
+                                    <img srcset="./images/portfolio13-mob.jpg 1x, 
+                            ./images/portfolio13-mob-2x.jpg 2x" src="./images/img21-mob.jpg" alt="Ігор Дем'яненко"
+                                        width="270" height="260">
+                                </picture>
+                                    <div class="card__overlay-text">
+                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                                            функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні
+                                            відомості про компанію чи приватну особу.</p>
+
+                                    </div>
+                                </div>
+                                <div class="card__text-wrap">
+                                    <h2 class="card__title">Ресторан Seafood</h2>
+                                    <p class="card__text">Додаток</p>
+                                </div>
+                            </a></li>
+                        <li class="card"><a href="" class="link card__link">
+                                <div class="card__thumb"><picture>
+                                    <source srcset="./images/portfolio14-desk.jpg 1x, 
+                                    ./images/portfolio14-desk-2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/portfolio14-tab.jpg 1x, 
+                                    ./images/portfolio14-tab-2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/portfolio14-mob.jpg 1x, 
+                                    ./images/portfolio14-mob-2x.jpg 2x" media="(min-width:1200px)">
+                                    <img srcset="./images/portfolio14-mob.jpg 1x, 
+                            ./images/portfolio14-mob-2x.jpg 2x" src="./images/img21-mob.jpg" alt="Ігор Дем'яненко"
+                                        width="270" height="260">
+                                </picture>
+                                    <div class="card__overlay-text">
+                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                                            функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні
+                                            відомості про компанію чи приватну особу.</p>
+
+                                    </div>
+                                </div>
+                                <div class="card__text-wrap">
+                                    <h2 class="card__title">Проєкт Prime</h2>
+                                    <p class="card__text">Маркетинг</p>
+                                </div>
+                            </a></li>
+                        <li class="card"><a href="" class="link card__link">
+                                <div class="card__thumb"><picture>
+                                    <source srcset="./images/portfolio15-desk.jpg 1x, 
+                                    ./images/portfolio15-desk-2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/portfolio15-tab.jpg 1x, 
+                                    ./images/portfolio15-tab-2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/portfolio15-mob.jpg 1x, 
+                                    ./images/portfolio15-mob-2x.jpg 2x" media="(min-width:1200px)">
+                                    <img srcset="./images/portfolio15-mob.jpg 1x, 
+                            ./images/portfolio15-mob-2x.jpg 2x" src="./images/img21-mob.jpg" alt="Ігор Дем'яненко"
+                                        width="270" height="260">
+                                </picture>
+                                    <div class="card__overlay-text">
+                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                                            функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні
+                                            відомості про компанію чи приватну особу.</p>
+
+                                    </div>
+                                </div>
+                                <div class="card__text-wrap">
+                                    <h2 class="card__title">Проєкт Boxes</h2>
+                                    <p class="card__text">Додаток</p>
+                                </div>
+                            </a></li>
+                        <li class="card"><a href="" class="link card__link">
+                                <div class="card__thumb"><picture>
+                                    <source srcset="./images/portfolio16-desk.jpg 1x, 
+                                    ./images/portfolio16-desk-2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/portfolio16-tab.jpg 1x, 
+                                    ./images/portfolio16-tab-2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/portfolio16-mob.jpg 1x, 
+                                    ./images/portfolio16-mob-2x.jpg 2x" media="(min-width:1200px)">
+                                    <img srcset="./images/portfolio16-mob.jpg 1x, 
+                            ./images/portfolio16-mob-2x.jpg 2x" src="./images/img21-mob.jpg" alt="Ігор Дем'яненко"
+                                        width="270" height="260">
+                                </picture>
+                                    <div class="card__overlay-text">
+                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                                            функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні
+                                            відомості про компанію чи приватну особу.</p>
+
+                                    </div>
+                                </div>
+                                <div class="card__text-wrap">
+                                    <h2 class="card__title"> Inspiration has no Borders</h2>
+                                    <p class="card__text">Веб-сайт</p>
+                                </div>
+                            </a></li>
+                        <li class="card"><a href="" class="link card__link">
+                                <div class="card__thumb"><picture>
+                                    <source srcset="./images/portfolio17-desk.jpg 1x, 
+                                    ./images/portfolio17-desk-2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/portfolio17-tab.jpg 1x, 
+                                    ./images/portfolio17-tab-2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/portfolio17-mob.jpg 1x, 
+                                    ./images/portfolio17-mob-2x.jpg 2x" media="(min-width:1200px)">
+                                    <img srcset="./images/portfolio17-mob.jpg 1x, 
+                            ./images/portfolio17-mob-2x.jpg 2x" src="./images/img21-mob.jpg" alt="Ігор Дем'яненко"
+                                        width="270" height="260">
+                                </picture>
+                                    <div class="card__overlay-text">
+                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                                            функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні
+                                            відомості про компанію чи приватну особу.</p>
+
+                                    </div>
+                                </div>
+                                <div class="card__text-wrap">
+                                    <h2 class="card__title">Видання Limited Edition</h2>
+                                    <p class="card__text">Дизайн</p>
+                                </div>
+                            </a></li>
+                        <li class="card"><a href="" class="link card__link">
+                                <div class="card__thumb"><picture>
+                                    <source srcset="./images/portfolio18-desk.jpg 1x, 
+                                    ./images/portfolio18-desk-2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/portfolio18-tab.jpg 1x, 
+                                    ./images/portfolio18-tab-2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/portfolio18-mob.jpg 1x, 
+                                    ./images/portfolio18-mob-2x.jpg 2x" media="(min-width:1200px)">
+                                    <img srcset="./images/portfolio18-mob.jpg 1x, 
+                            ./images/portfolio18-mob-2x.jpg 2x" src="./images/img21-mob.jpg" alt="Ігор Дем'яненко"
+                                        width="270" height="260">
+                                </picture>
+                                    <div class="card__overlay-text">
+                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                                            функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні
+                                            відомості про компанію чи приватну особу.</p>
+
+                                    </div>
+                                </div>
+                                <div class="card__text-wrap">
+                                    <h2 class="card__title">Проєкт LAB</h2>
+                                    <p class="card__text">Маркетинг</p>
+                                </div>
+                            </a></li>
+                        <li class="card"><a href="" class="link card__link">
+                                <div class="card__thumb"><picture>
+                                    <source srcset="./images/portfolio19-desk.jpg 1x, 
+                                    ./images/portfolio19-desk-2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/portfolio19-tab.jpg 1x, 
+                                    ./images/portfolio19-tab-2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/portfolio19-mob.jpg 1x, 
+                                    ./images/portfolio19-mob-2x.jpg 2x" media="(min-width:1200px)">
+                                    <img srcset="./images/portfolio19-mob.jpg 1x, 
+                            ./images/portfolio19-mob-2x.jpg 2x" src="./images/img21-mob.jpg" alt="Ігор Дем'яненко"
+                                        width="270" height="260">
+                                </picture>
+                                    <div class="card__overlay-text">
+                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                                            функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні
+                                            відомості про компанію чи приватну особу.</p>
+
+                                    </div>
+                                </div>
+                                <div class="card__text-wrap">
+                                    <h2 class="card__title">Growing Business</h2>
+                                    <p class="card__text">Додаток</p>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <!--Підвал сторінки-->
+        <footer class="footer">
+            <div class="container footer__column">
+                <div class="tablet-flex">
+                    <div class="footer__left">
+                        <div class="footer__logo"> <a href="/index.html" class="logo__link link">
+                                <span lang="en" class="logo__web">Web</span><span
+                                    class="logo__studio--white">Studio</span>
+                            </a>
+                        </div>
+                        <div class="footer__contacts">
+                            <p class="footer__location">
+                                м. Київ, пр-т Лесі Українки, 26</p>
+
+                            <ul class="list footer__contact">
+                                <li class="footer__item">
+                                    <a href="mailto:info@devstudio.com"
+                                        class="link footer__contact-link">info@devstudio.com</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="tel:+380961111111" class="link footer__contact-link">+38 096
+                                        111
+                                        11 11</a>
+
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="call">
+                        <h3 class="footer__title">приєднуйтесь</h3>
+                        <ul class="footer__social-list list">
+                            <li class="list footer__item"><a class="footer__link-icon" href=""><svg
+                                        class="footer__social-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-instagram"></use>
+                                    </svg></a></li>
+                            <li class="list footer__item"><a class="footer__link-icon" href=""><svg
+                                        class="footer__social-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-twitter"></use>
+                                    </svg></a></li>
+                            <li class="list footer__item"><a class="footer__link-icon" href=""><svg
+                                        class="footer__social-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-facebook"></use>
+                                    </svg></a></li>
+                            <li class="list footer__item"><a class="footer__link-icon" href=""><svg
+                                        class="footer__social-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-linkedin"></use>
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="subscription">
+                    <h3 class="footer__title">Підпишіться на розсилку</h3>
+                    <div class="subscription__box"><input type="email" name="email-footer" id="email-footer"
+                            placeholder="E-mail" class="subscription__input" />
+                        <div class=""><button type="submit" class="subscription__batton">
+                                Підписатися <svg class="icon-send" width="18" height="18">
+                                    <use href="./images/icons.svg#icon-send"></use>
+                                </svg></button></div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!--Мобільне меню-->
+        <div class="mobile-backdrop mobile-is-hidden mobile-menu" data-menu>
+
+            <button type="button" class="menu-button-close" data-menu-close><svg class="menu__icon-close" width="40"
+                    height="40">
+                    <use href="./images/icons.svg#icon-close_40px"></use>
+                </svg>
+            </button>
+
+
+            <ul class="menu__site-nav list">
+                <li class="menu__site-nav-item item"><a href="index.html"
+                        class="menu__site-nav-link link site-nav__link--current">Студія</a>
+                </li>
+                <li class="menu__site-nav-item item"><a href="portfolio.html"
+                        class="menu__site-nav-link link">Портфоліо</a>
+                </li>
+                <li class="menu__site-nav-item item"><a href="" class="menu__site-nav-link link">Контакти</a>
+                </li>
+            </ul>
+
+            <ul class="menu-contacts list">
+                <li class="menu-contacts__item item"><a href="tel:+380961111111" class="link menu-contacts__link menu-contacts__link-tel">+38
+                    096 111 11 11</a></li>
+                <li class="menu-contacts__item item"><a href="mailto:info@devstudio.com"
+                        class="link menu-contacts__link menu-contacts__link-mail">info@devstudio.com</a></li>
+                
+            </ul>
+            <ul class="menu-social list">
+                <li class="menu-social__item item"><a class="link menu-social__link menu-social__link-inst" href="">Instagram</a></li>
+                <li class="menu-social__item item"><a class="link menu-social__link menu-social__link-twit" href="">Twitter</a></li>
+                <li class="menu-social__item item"><a class="link menu-social__link menu-social__link-face" href="">Facebook</a></li>
+                <li class="menu-social__item item"><a class="link menu-social__link" href="">LinkedIn</a></li>
+            </ul>
+
+
+
+        </div>
+        <script src="./js/modal.js"></script>
+        <script src="./js/mobile-menu.js"></script>
+
+    </body>
+
+</html>

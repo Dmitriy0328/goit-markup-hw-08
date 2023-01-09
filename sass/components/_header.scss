@@ -1,0 +1,41 @@
+.header {
+    background-color: var(--text-background-color);
+    border-bottom: 1px solid #ECECEC;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 30px);
+    
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu-button-open {
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #000000;
+    transition: color 250ms ease;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.menu-button-open:hover {
+    color: var(--accent-color);
+}
+
+.menu-button-open {
+    fill: currentColor;
+}
+
